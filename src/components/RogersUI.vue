@@ -6,8 +6,9 @@
       <li>
 What platforms are you most interested in?<br>
 <input type="checkbox" name="web" value="WEB">Web Browser<br>
-<input type="checkbox" name="ios" value="IOS">iOS (iPhone, iPad, etc)<br>
-<input type="checkbox" name="android" value="ANDROID">Android<br>
+<input type="checkbox" name="ios" value="IOS">iOS (iPhone, iPad)<br>
+<input type="checkbox" name="android_gp" value="ANDROID_GP">Android (Google Play)<br>
+<input type="checkbox" name="android_aa" value="ANDROID_AA">Android (Amazon Appstore)<br>
 <input type="checkbox" name="windows" value="WINDOWS">Windows Desktop<br>
 <input type="checkbox" name="mac" value="MAC">Mac Desktop<br>
       </li>
@@ -88,7 +89,7 @@ export default {
   name: 'RogersUI',
   data() {
     return {
-      msg: 'The App Builder Questionnaire',
+      msg: 'Build Me An App',
     };
   },
 };
